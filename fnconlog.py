@@ -91,9 +91,6 @@ def moveFiles(filename):
 	filePath = cwd + '/' + filename
 	backupPath = filePath + '_BAK'
 
-	print backupPath
-	print filePath
-
 	if (os.path.isfile(backupPath)):
 		os.remove(backupPath)
 	
